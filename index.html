@@ -2,16 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Portfolio</title>
+    <title>Rafael Del Bello - Center of Geographic Sciences GIS & Remnote Sensing Work Sample</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 20px; }
-        img { max-width: 100%; }
+        .poster { 
+            width: 60%; 
+            height: auto; 
+            cursor: pointer; 
+        }
+        .poster-container {
+            margin: 15px 0;
+        }
     </style>
 </head>
 <body>
     <h1>My Portfolio</h1>
     <h2>Science Posters</h2>
-    <p><img src="cogs-posters/sample_poster_esri_model_Lidar_site_suitability.jpg" alt="Site Suitability Study using Lidar and ArcGIS Modelling"></p>
+    <div class="poster-container">
+        <a href="cogs-posters/sample_poster_esri_model_Lidar_site_suitability.jpg" target="_blank">
+            <img src="cogs-posters/sample_poster_esri_model_Lidar_site_suitability.jpg" 
+                 alt="Site Suitability Study using Lidar and ArcGIS Modelling" 
+                 class="poster">
+        </a>
+    </div>
+    <div class="poster-container">
+        <a href="cogs-posters/sample_raster_mosaicking_with_python.png" target="_blank">
+            <img src="cogs-posters/sample_raster_mosaicking_with_python.png" 
+                 alt="Raster Mosaicking with Python" 
+                 class="poster">
+        </a>
+    </div>
+    <div class="poster-container">
+        <a href="cogs-posters/sample_poster_thermal_remote_sensing.jpg" target="_blank">
+            <img src="cogs-posters/sample_poster_thermal_remote_sensing.jpg" 
+                 alt="Thermal Remote Sensing" 
+                 class="poster">
+        </a>
+    </div>
     <h2>Research Papers</h2>
     <p><a href="paper/DelBelloRafael_UAV_AcquisitionGuideline.pdf" target="_blank">Research Paper 2025 (PDF)</a></p>
 </body>
